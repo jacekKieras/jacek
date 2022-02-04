@@ -1,0 +1,25 @@
+.bez-jacka {
+    background-image: url("Bez Jacka.png"); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.napis
+{
+    position: absolute;
+    bottom:2%;
+    left: 2%;
+    font-size: large;
+    border-radius: 10px;
+    border: 10px;
+    border: solid;
+    background-color: pink;
+}
+
+#z
+{
+ display: none;   
+}
