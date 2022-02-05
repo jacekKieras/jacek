@@ -13,13 +13,68 @@
     bottom:2%;
     left: 2%;
     font-size: large;
-    border-radius: 10px;
-    border: 10px;
-    border: solid;
-    background-color: pink;
+
 }
 
 #z
 {
  display: none;   
 }
+
+
+.napis {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+          -webkit-tap-highlight-color: transparent;
+  }
+  
+.napis {
+      width: 150px;
+      height: 50px;
+      cursor: pointer;
+      border: none;
+      font-family: 'Comfortaa', cursive;
+      color: rgba(255,255,255,0.1);
+      font-size: 20px;
+      border-radius: 4px;
+      box-shadow: inset 0px 3px 5px rgba(255,255,255,0.1), 0px 0px 10px rgba(0,0,0,0.05);
+      background: rgb(2,0,36);
+  background: linear-gradient(45deg, rgba(2,0,36,0) 5%, rgba(255,255,255,.5) 6%, rgba(255,255,255,0) 9%, rgba(255,255,255,.5) 10%, rgba(255,255,255,0) 17%, rgba(255,255,255,.5) 19%, rgba(255,255,255,0) 21%);
+      background-size: 150%;
+      background-position: right;
+      transition: 0s;
+  }
+
+.napis1 {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+          -webkit-tap-highlight-color: transparent;
+  }
+  
+.napis1 {
+    position: absolute;
+    bottom:2%;
+    left: 2%;
+    font-size: large;
+      width: fit-content;
+      height: fit-content;
+      cursor: pointer;
+      border: none;
+      font-family: 'Comfortaa', cursive;
+      color: rgb(0, 0, 0);
+      background-image: linear-gradient(to right, red,orange,yellow,green);
+      font-size: 20px;
+      border-radius: 4px;
+      box-shadow: inset 0px 3px 5px rgba(255,255,255,0.1), 0px 0px 10px rgba(0,0,0,0.15);
+      background-position: right;
+      transition: 0s;
+  }
+  
